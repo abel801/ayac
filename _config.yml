@@ -1,0 +1,16 @@
+#site settings
+title: Hoteles Turisticos
+email: abimael@mapbox.com
+description: > # this means to ignore newlines until "baseurl:"
+  <h1>Historia de la ciudad de Ayacucho</h1>
+  La palabra Ayacucho proviene de 2 voces quechuas "aya" (alma) y "cuchu" (rincón o morada) por los restos humanos encontrados en este lugar.
+
+  La historia de la Ayacucho se divide en 4 épocas: Preincaica, Incaica, Virreinal y Republicana.
+
+baseurl: /ayac # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown

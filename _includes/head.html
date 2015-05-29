@@ -1,0 +1,40 @@
+<head>
+   <meta charset="utf-8">
+   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+   <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.js'></script>
+   <script src='abimael.geojson'></script>
+   <link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.8/mapbox.css' rel='stylesheet' />
+   <meta name="viewport" content="width=device-width initial-scale=1" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+   <meta name="description" content="{{ site.description }}">
+
+   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+   <style>
+     body { margin:0; padding:0; }
+     #map { position:absolute; top:0; bottom:0; width:100%; }
+   </style>
+
+   <div id='map'></div>
+
+<script>
+for (var i = 0; i < hotel.features.length; i++) {
+    hotel.features[i].properties["marker-color"]="#0F8A3C";
+    hotel.features[i].properties["title"]=hotel.features[i].properties.name;
+    hotel.features[i].properties["marker-symbol"]="lodging";
+    hotel.features[i].properties["description"] = '<img width="200px" src="http://www.turismoinnova.es/wp-content/uploads/2012/03/hotel-mandarin-oriental.jpg"></img>';
+
+   hotel.features[i].properties["description"] = '<img width="200px" src="'+hotel.features[i].properties.image +'"></img>';
+    };
+
+
+L.mapbox.accessToken = 'pk.eyJ1IjoiYWJlbDgwMSIsImEiOiIxUzNmOENNIn0.u7fHYs3R9cES0Bmo-CUOdQ';
+L.mapbox.map('map', 'abel801.57718ba5')
+  .setView([-13.16, -74.22], 15)
+  .featureLayer.setGeoJSON(hotel);
+</script>
+               
+</head>

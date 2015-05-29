@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hoteles Turisticos</title>
+    <description>&lt;h1&gt;Historia de la ciudad de Ayacucho&lt;/h1&gt; La palabra Ayacucho proviene de 2 voces quechuas &quot;aya&quot; (alma) y &quot;cuchu&quot; (rincón o morada) por los restos humanos encontrados en este lugar.
+La historia de la Ayacucho se divide en 4 épocas: Preincaica, Incaica, Virreinal y Republicana.
+</description>
+    <link>http://yourdomain.com/ayac/</link>
+    <atom:link href="http://yourdomain.com/ayac/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 29 May 2015 11:28:33 -0500</pubDate>
+    <lastBuildDate>Fri, 29 May 2015 11:28:33 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Bienestar</title>
+        <description>&lt;p&gt;Los beneficios de salud de nuestro nuevo NingXia Red incluye bienestar de la cabeza a los pies, mediante la infusión de nutrientes de todo el cuerpo.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 20 Nov 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/ayac/2014/11/20/red.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/ayac/2014/11/20/red.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Valor</title>
+        <description>&lt;p&gt;Valor es una mezcla única que ayuda a mejorar sus sentimientos de enpoderamiento y coraje para vencer obstáculos y temores.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 20 Oct 2014 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/ayac/2014/10/20/ninja.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/ayac/2014/10/20/ninja.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
